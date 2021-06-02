@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Axel Leguero">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon api</title>
+</head>
+<body>
+    <div>
+        <h1>POKEMON</h1>
+    </div>
+    <div id="info">
+        <label>Tipo:</label><span id="type"></span>
+        <label>Habilidades:</label><span id="abilities"></span>
+        <img id="pokemonImg" class="pokemonImg">
+        <label>Nombre:</label><span id="pokemonName"></span>
+    </div>
+    <div class="search">
+        <input type="text" id="user" placeholder="Buscar pokemon" required>
+        <button type="submit" id="button" onclick="fetchData()">Buscar</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
