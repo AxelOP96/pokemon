@@ -16,7 +16,7 @@ h1{
     flex-direction: column;
     text-align: center;
 }
-.pokemonImg{
+#Img{
     border-radius:50%;
     border:2px solid rgba(0, 255, 134, 0.2)
 }
